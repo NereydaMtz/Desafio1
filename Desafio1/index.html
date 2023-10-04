@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <title>Encriptador  Challengue</title>
+<script src="/script.js"></script>
+
+
+</head>
+<body>
+    <header>
+
+        <img src="imagenes/Logo.png" alt="Logo" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" name="" id="text_area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="info">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btnEncriptar" onclick="mialerta()"> Encriptar</button>
+                <button class="btnDesencriptar" onclick="mialerta2()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="30" rows="10" placeholder="Nigún mensaje fue encontrado" id="mensaje_desencriptado" disabled></textarea>
+            <img class="muñeco" id="muñeco" src="imagenes/Muñeco.pngquitar" alt="" srcset="">
+            
+
+            <div>
+                <button class="copiar" onclick="CopyOutputToInput()">Copiar</button>
+            </div>
+        </section>
+
+
+
+        
+           
+              
+         
+         
+    </main>
+    
+       <footer class="pie">
+        <div class="copyright" style="background-color: #0d47a1;">
+            <div class="container-fluid" style="background-color: #0d47a1; color: #bbdefb;">
+                ©  Copyright: Nereyda Martinez De La Cruz
+        
+            </div>
+        </footer>
+</body>
+</html>
